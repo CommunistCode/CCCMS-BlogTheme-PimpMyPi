@@ -46,7 +46,7 @@
       
       <div id='body' class='faux'>
 
-				<div class="blogLinks">
+				<div class="sidebar">
 			
       		<?php
 						require_once("includes/blogLinks.inc.php");
@@ -54,7 +54,7 @@
 			
       	</div>
 			
-				<div class="blogBody">
+				<div class="sideBody">
 		
 			  	<?php
 

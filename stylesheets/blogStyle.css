@@ -1,34 +1,12 @@
-.blogBody {
-	float: right;
-	width: 740px;
-  margin: 10px 20px 20px 20px;
-}
-
-.blogLinks {
-	float: left;
-  width: 120px;
-	padding: 10px 0px 0px 10px;
-}
-
-.blogLinks ul {
-	list-style:none;
-	margin: 0px;
-	padding: 0px;
-}
-
-.blogLinks li {
-	padding: 1px 0px 1px 10px;
-}
-
 .blogPreview {
   background: #EDEDED;
   margin: 20px 0px 0px 0px;
   padding: 10px 10px 10px 10px;
-  width: 720px;
+  width: 700px;
 }
 
 .blogPreview .heading {
-  width: 720px;
+  width: 700px;
 }
 
 .blogPreview .heading .left {
@@ -43,7 +21,7 @@
 }
 
 .blogPreview .text {
-  width: 720px;
+  width: 700px;
   margin: 10px 0px 0px 0px;
   background: white;
   border: 1px solid grey;
