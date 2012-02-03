@@ -32,7 +32,7 @@
   font-size: 12px;
 }
 
-.blogPreview a {
+.blogPreview .linkHeader {
   float: left;
   font-size: 15px;
   line-height: 40px;
@@ -58,7 +58,7 @@
 }
 
 .blogPost .date {
-  margin: -5px 0px 0px 0px;
+  margin: 10px 0px 0px 0px;
 }
 
 .blogPost .author {
