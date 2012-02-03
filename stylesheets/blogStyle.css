@@ -66,7 +66,8 @@
 }
 
 .blogPost .text {
-	background: #eaf3e9;
+/*	background: #eaf3e9; */
+  border: 1px solid grey;
 	text-align: justify;
 	padding: 10px 10px 10px 10px;
 	margin: 10px 0px;
@@ -75,9 +76,9 @@
 .postComment {
   position: relative;
   background: #EDEDED;
-  width: 720px;
+  width: 700px;
   padding: 10px;
-  margin: 0px;
+  margin: 0px 0px 10px 0px;
 }
 
 .postComment h3 {
@@ -104,9 +105,11 @@
 .blogComment {
   position: relative;
   background: #EDEDED;
-  width: 720px;
+  border-bottom: solid 1px grey;
+  border-top: solid 1px grey;
+  width: 700px;
   padding: 10px;
-  margin: 0px 0px 0px 0px;
+  margin: 0px 0px 10px 0px;
 }
 
 .blogComment .date {
@@ -131,10 +134,10 @@
 .blogComment .comment {
   position: relative;
   float: right;
-  width: 565px;
+  width: 545px;
   min-height: 80px;
   padding: 15px;
-  border: 1px solid grey;
+/*  border: 1px solid grey;*/
   background: white;
 }
 
