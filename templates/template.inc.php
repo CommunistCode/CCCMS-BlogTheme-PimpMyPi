@@ -8,8 +8,7 @@
     <!-- Favico -->
     <link rel="SHORTCUT ICON" href="<?php echo($directoryPath); ?>/themes/berry/favicon.ico" />
 
-    <title><?php echo($title." : ".$pageContent['title']); ?></title>
-
+    <!-- CSS -->
     <link href="<?php echo($directoryPath); ?>/themes/<?php echo($pageTools->getTheme("base")); ?>/stylesheets/cssReset.css" rel="stylesheet" />
   	<link href="<?php echo($directoryPath); ?>/themes/<?php echo($pageTools->getTheme("base")); ?>/stylesheets/base.css" rel="stylesheet" type="text/css" />	
   	<link href="themes/<?php echo($pageTools->getTheme("blog")); ?>/stylesheets/blogStyle.css" rel="stylesheet" type="text/css" />
@@ -18,6 +17,8 @@
       <link href="<?php echo($directoryPath); ?>/themes/berry/stylesheets/ie.css" rel="stylesheet" />
     <![endif]-->
 	
+    <title><?php echo($title." : ". $pageTitle); ?></title>
+ 
   </head>
 	
   <body>
